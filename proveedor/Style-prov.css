@@ -1,0 +1,80 @@
+/* Aplicar márgenes a la página y centrado */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.provedor-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    border: 2px solid black;
+}
+
+/* Estilos para los labels */
+.provedor-container label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilos para los inputs */
+.provedor-container input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilo para el botón */
+.provedor-container input[type="button"] {
+    width: 49%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+.provedor-container input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los inputs con efecto hover */
+.provedor-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    transition: border 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en los inputs */
+.provedor-container input[type="text"]:hover {
+    border-color: #007bff; /* Cambia el color del borde */
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Añade un resalto con sombra */
+}
+.hr{
+    size: 40px;
+    background-color: red;
+}
