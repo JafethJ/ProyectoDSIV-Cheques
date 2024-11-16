@@ -1,2 +1,21 @@
 # ProyectoDSIV-Cheques
 Proyecto realizado para la interacción de una base de datos con un formulario, PHP, JavaScript, Ajax y Xammp
+
+
+--INGRESAR A LA PANTALLA DE CHEQUES
+http://localhost/DSV/Proyecto2JJDD/cheques/cheque_disp_crear.php
+http://localhost/DSV/Proyecto2JJDD/cheques/cheque_disp_ver.php
+
+--INGRESAR A LA PANTALLA DE PROVEEDORES
+http://localhost/DSV/Proyecto2JJDD/proveedor/proveedor_disp_crear.php
+http://localhost/DSV/Proyecto2JJDD/proveedor/proveedor_disp_ver.php
+
+
+--BASE DE DATOS
+
+nombre_BD: bdcheque
+nombre_tabla: cheques
+nombre_tabla: proveedores
+
+usuario = "d42024";
+password = "1234";
